@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../template/layout';
+import QandA from '../components/qanda';
 
 const Mid = () => {
-  return <div>Mid</div>
-}
+  return (
+    <Layout>
+      <QandA />
+    </Layout>
+  );
+};
 
-export default Mid 
+export default Mid;

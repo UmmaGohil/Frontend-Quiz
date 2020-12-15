@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../template/layout';
+import QandA from '../components/qanda';
 
 const Expert = () => {
-  return <div>expert</div>
-}
+  return (
+    <Layout>
+      <QandA />
+    </Layout>
+  );
+};
 
-export default Expert 
+export default Expert;

@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../template/layout';
+import QandA from '../components/qanda';
 
 const Junior = () => {
-  return <div>junior</div>
-}
+  return (
+    <Layout>
+      <QandA />
+    </Layout>
+  );
+};
 
-export default Junior 
+export default Junior;
