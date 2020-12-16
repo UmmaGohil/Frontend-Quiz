@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.answer-button {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  background: rgb(174, 212, 247);
+  color: rgb(19, 146, 7);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.nav-button:focus {
+  outline: none;
+}

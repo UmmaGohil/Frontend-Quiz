@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../template/layout';
-import Nav from '../components/Home/Nav';
+import Nav from '../components/Nav';
 
 const home = () => {
   return (

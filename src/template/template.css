@@ -1,0 +1,10 @@
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Ubuntu;
+}
+.layout {
+  text-align: center;
+}
+.container-template {
+  text-align: center;
+}
