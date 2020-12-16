@@ -1,19 +1,62 @@
 {
-  "data": 
-  [{
-    "Q": "question one",
-    "A": "answer one"
-  },
-  {
-    "Q": "question two",
-    "A": "answer two"
-  },
-  {
-    "Q": "question three",
-    "A": "answer three"
-  },
-  {
-    "Q": "question four",
-    "A": "answer four"
-  }]
+  "easy": [
+    {
+      "question": "example easy 1",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": true },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    },
+    {
+      "question": "example easy 2",
+      "answers": [
+        { "ans": "one", "correct": true },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    }
+  ],
+  "mid": [
+    {
+      "question": "example mid 1",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": true },
+        { "ans": "four", "correct": false }
+      ]
+    },
+    {
+      "question": "example mid 2",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": true }
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "question": "example hard 1",
+      "answers": [
+        { "ans": "one", "correct": true },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    },
+    {
+      "question": "example hard 2",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": true }
+      ]
+    }
+  ]
 }
