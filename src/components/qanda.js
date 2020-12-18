@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Data from '../data/data.json';
-import './qanda.css';
 
 const QandA = (props) => {
   const [question, setQuestion] = useState(0);
@@ -29,7 +28,7 @@ const QandA = (props) => {
             Question {question + 1}/{Data[props.level].length}
           </h3>
           <h3>{Data[props.level][question].question}</h3>
-          <div className='container'>
+          <div className='container questions'>
             {Data[props.level][question].answers.map((answers) => (
               <button
                 className='answer-button'
