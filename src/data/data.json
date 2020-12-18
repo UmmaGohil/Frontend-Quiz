@@ -1,7 +1,7 @@
 {
   "easy": [
     {
-      "question": "example easy 1",
+      "question": "What's the difference between state and props in React?",
       "answers": [
         { "ans": "one", "correct": false },
         { "ans": "two", "correct": true },
@@ -10,7 +10,34 @@
       ]
     },
     {
-      "question": "example easy 2",
+      "question": "Which one isn't a React hook?",
+      "answers": [
+        { "ans": "one", "correct": true },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    },
+    {
+      "question": "What is a virtual DOM?",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": true },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the difference between == and ===?",
+      "answers": [
+        { "ans": "one", "correct": true },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    },
+    {
+      "question": "What's the difference between let and const?",
       "answers": [
         { "ans": "one", "correct": true },
         { "ans": "two", "correct": false },
@@ -21,27 +48,16 @@
   ],
   "mid": [
     {
-      "question": "example mid 1",
+      "question": "When should you use a class component over a functional component?",
       "answers": [
         { "ans": "one", "correct": false },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": true },
+        { "ans": "two", "correct": true },
+        { "ans": "three", "correct": false },
         { "ans": "four", "correct": false }
       ]
     },
     {
-      "question": "example mid 2",
-      "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": true }
-      ]
-    }
-  ],
-  "hard": [
-    {
-      "question": "example hard 1",
+      "question": "eWhat is the use of refs?",
       "answers": [
         { "ans": "one", "correct": true },
         { "ans": "two", "correct": false },
@@ -50,7 +66,72 @@
       ]
     },
     {
+      "question": "What is a key prop and why is it used in array elements?",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": true },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    },
+    {
+      "question": "What is hoisting?",
+      "answers": [
+        { "ans": "one", "correct": true },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    },
+    {
+      "question": "What's the difference between synchronous and asychronous functions?",
+      "answers": [
+        { "ans": "one", "correct": true },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": false }
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "question": "example hard 1",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": true }
+      ]
+    },
+    {
       "question": "example hard 2",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": true }
+      ]
+    },
+    {
+      "question": "example hard 3",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": true }
+      ]
+    },
+    {
+      "question": "example hard 4",
+      "answers": [
+        { "ans": "one", "correct": false },
+        { "ans": "two", "correct": false },
+        { "ans": "three", "correct": false },
+        { "ans": "four", "correct": true }
+      ]
+    },
+    {
+      "question": "example hard 5",
       "answers": [
         { "ans": "one", "correct": false },
         { "ans": "two", "correct": false },
