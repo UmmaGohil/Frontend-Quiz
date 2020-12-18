@@ -2,7 +2,6 @@ import Home from '../pages/home';
 import Junior from '../pages/junior';
 import Mid from '../pages/mid';
 import Expert from '../pages/expert';
-import Score from '../pages/score';
 
 const routes = [
   {
@@ -28,12 +27,6 @@ const routes = [
     exact: true,
     component: Expert,
     name: Expert,
-  },
-  {
-    path: '/Score',
-    exact: true,
-    component: Score,
-    name: Score,
   },
 ];
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Component1 from './qanda';
+import Component1 from './QandA';
 
 describe('<component1 />', () => {
   test('renders component and finds text', () => {
