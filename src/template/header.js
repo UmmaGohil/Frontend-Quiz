@@ -1,6 +1,6 @@
 import React from 'react';
 const Header = () => {
-  return <h1>Front-end Interview Quiz</h1>;
+  return <h1>Front-end Quiz</h1>;
 };
 
 export default Header;
