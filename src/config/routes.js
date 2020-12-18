@@ -1,7 +1,7 @@
 import Home from '../pages/home';
-import Junior from '../pages/junior';
+import Easy from '../pages/easy';
 import Mid from '../pages/mid';
-import Expert from '../pages/expert';
+import Hard from '../pages/hard';
 
 const routes = [
   {
@@ -11,10 +11,10 @@ const routes = [
     name: Home,
   },
   {
-    path: '/Junior',
+    path: '/Easy',
     exact: true,
-    component: Junior,
-    name: Junior,
+    component: Easy,
+    name: Easy,
   },
   {
     path: '/Mid',
@@ -23,10 +23,10 @@ const routes = [
     name: Mid,
   },
   {
-    path: '/Expert',
+    path: '/Hard',
     exact: true,
-    component: Expert,
-    name: Expert,
+    component: Hard,
+    name: Hard,
   },
 ];
 

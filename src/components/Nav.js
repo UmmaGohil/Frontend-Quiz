@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
   return (
     <div className='container'>
-      <Link to='/Junior'>
-        <button className='nav-button'>Junior</button>
+      <Link to='/Easy'>
+        <button className='nav-button'>Easy</button>
       </Link>
       <Link to='/Mid'>
-        <button className='nav-button'>Mid</button>
+        <button className='nav-button'>Medium</button>
       </Link>
-      <Link to='/Expert'>
-        <button className='nav-button'>Expert</button>
+      <Link to='/Hard'>
+        <button className='nav-button'>Hard</button>
       </Link>
     </div>
   );
