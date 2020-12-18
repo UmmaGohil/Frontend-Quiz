@@ -22,7 +22,7 @@ A small quiz app built with create-react-app.
 
 - Refactor pages to avoid DRY
 
-- Enable user to select amount of questions and difficult/ different topics within front-end
+- Enable user to select amount of questions and level/ different topics within front-end
 
 - Leaderboard feature
 
