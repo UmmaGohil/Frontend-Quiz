@@ -12,7 +12,7 @@ const QandA = (props) => {
     }
 
     const nextQuestion = question + 1;
-    nextQuestion < Data.easy.length
+    nextQuestion < Data[props.level].length
       ? setQuestion(nextQuestion)
       : setShowScore(true);
   };
