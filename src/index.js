@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { renderRoutes } from 'react-router-config'
-import routes from './config/routes'
-import { BrowserRouter } from 'react-router-dom'
+import { renderRoutes } from 'react-router-config';
+import routes from './config/routes';
+import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>{renderRoutes(routes)}</BrowserRouter>
