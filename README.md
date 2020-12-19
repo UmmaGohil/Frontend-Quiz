@@ -28,4 +28,4 @@ A small quiz app built with create-react-app.
 
 - Back-end implementation to handle data (rather than json file)
 
-- Enable user's to be able to see incorrect questions answered (with correct solution)
+- Enable users to be able to see incorrect questions answered (with correct solution)
