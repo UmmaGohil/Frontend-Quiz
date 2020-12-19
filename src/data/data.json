@@ -3,46 +3,61 @@
     {
       "question": "What's the difference between state and props in React?",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": true },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        {
+          "ans": "State is immutable and props are immutable",
+          "correct": false
+        },
+        { "ans": "State is mutable and props are immutable", "correct": true },
+        { "ans": "Both state and props are the same thing", "correct": false },
+        { "ans": "None of the above", "correct": false }
       ]
     },
     {
       "question": "Which one isn't a React hook?",
       "answers": [
-        { "ans": "one", "correct": true },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        { "ans": "useState", "correct": false },
+        { "ans": "useReducer", "correct": false },
+        { "ans": "useEffect", "correct": false },
+        { "ans": "None of the above", "correct": true }
       ]
     },
     {
       "question": "What is a virtual DOM?",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": true },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        { "ans": "A copy of the DOM", "correct": false },
+        { "ans": "A lightweight abstraction of the DOM", "correct": true },
+        { "ans": "An implementation made by React", "correct": false },
+        { "ans": "None of the above", "correct": false }
       ]
     },
     {
       "question": "What is the difference between == and ===?",
       "answers": [
-        { "ans": "one", "correct": true },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        {
+          "ans": "== compares for equality and type is converted and === will only compare type of value",
+          "correct": true
+        },
+        {
+          "ans": "== compares two values and === compares three values",
+          "correct": false
+        },
+        { "ans": "Both do the same thing", "correct": false },
+        { "ans": "None of the above", "correct": false }
       ]
     },
     {
       "question": "What's the difference between let and const?",
       "answers": [
-        { "ans": "one", "correct": true },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        {
+          "ans": "Let is used for variables with mutable data. Const is used for immutable data.",
+          "correct": true
+        },
+        {
+          "ans": "Let is used for immutable data. Const is used for mutable data.",
+          "correct": false
+        },
+        { "ans": "Both do the same thing", "correct": false },
+        { "ans": "None of the above", "correct": false }
       ]
     }
   ],
