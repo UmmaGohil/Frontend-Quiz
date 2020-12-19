@@ -27,3 +27,5 @@ A small quiz app built with create-react-app.
 - Leaderboard feature
 
 - Back-end implementation to handle data (rather than json file)
+
+- Enable user's to be able to see incorrect questions answered (with correct solution)
