@@ -1,11 +1,11 @@
-import React from 'react';
-import Layout from '../template/layout';
-import QandA from '../components/QandA';
+import React from "react";
+import Layout from "../template/layout";
+import QandA from "../components/qanda";
 
 const Expert = () => {
   return (
     <Layout>
-      <QandA level={'hard'} />
+      <QandA level={"hard"} />
     </Layout>
   );
 };
