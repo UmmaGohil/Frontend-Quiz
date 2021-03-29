@@ -18,7 +18,7 @@ A small quiz app built with create-react-app.
 
 - `yarn start`
 
-- Live demo:()[]
+- Live demo:[https://hopeful-visvesvaraya-843481.netlify.app/](https://hopeful-visvesvaraya-843481.netlify.app/)
 
 ### 💭Additional Features to Be Implemented
 
