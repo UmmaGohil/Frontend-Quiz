@@ -1,17 +1,16 @@
-import React from 'react';
-import { MemoryRouter, Link, Router } from 'react-router-dom';
-import { fireEvent, render, screen } from '@testing-library/react';
-import { createMemoryHistory } from 'history';
-import '@testing-library/jest-dom/extend-expect';
-import Nav from './Nav';
+import React from "react";
+import { MemoryRouter, Link, Router } from "react-router-dom";
+import { fireEvent, render } from "@testing-library/react";
+import { createMemoryHistory } from "history";
+import "@testing-library/jest-dom/extend-expect";
 
-describe('<Nav />', () => {
-  test('Links are correct in component', () => {
+describe("<Nav />", () => {
+  test("Links are correct in component", () => {
     //test Links are correct
     render(
       <Router>
-        <Link to='/Easy'>
-          <button className='nav-button'>Easy</button>
+        <Link to="/Easy">
+          <button className="nav-button">Easy</button>
         </Link>
       </Router>
     );
@@ -20,11 +19,11 @@ describe('<Nav />', () => {
 
     const { getByText } = render(
       <MemoryRouter history={history}>
-        <Link to='/hello'>testing</Link>
+        <Link to="/hello">testing</Link>
       </MemoryRouter>
     );
-    fireEvent.click(getByText('testing'));
+    fireEvent.click(getByText("testing"));
 
-    expect(history.push).toHaveBeenCalledWith('/hello');
+    expect(history.push).toHaveBeenCalledWith("/hello");
   });
 });
