@@ -72,7 +72,7 @@
       ]
     },
     {
-      "question": "eWhat is the use of refs?",
+      "question": "What is the use of refs?",
       "answers": [
         { "ans": "one", "correct": true },
         { "ans": "two", "correct": false },
@@ -110,48 +110,75 @@
   ],
   "hard": [
     {
-      "question": "example hard 1",
+      "question": "Which of these isn't part of WCAG 2.0?",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": true }
+        {
+          "ans": "Level A: the most basic web accessibility features",
+          "correct": false
+        },
+        {
+          "ans": "Level AA: the most common barriers for disabled people",
+          "correct": false
+        },
+        {
+          "ans": "Level AAA: the hieghest level of accessibility",
+          "correct": false
+        },
+        { "ans": "All three are part of the WCAG 2.0", "correct": true }
       ]
     },
     {
-      "question": "example hard 2",
+      "question": "What is the difference between authorisation and authentication?",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": true }
+        {
+          "ans": "Authenticate is the process of verifying who the user is and authorisation is the process of verifying what they have access to",
+          "correct": true
+        },
+        { "ans": "They are both the same", "correct": false },
+        {
+          "ans": "Authentication is the process of what they have access to and authorisation is verifying the user",
+          "correct": false
+        },
+        { "ans": "Both answers A and C are correct", "correct": false }
       ]
     },
     {
-      "question": "example hard 3",
+      "question": "Which one is incorrect?",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": true }
+        {
+          "ans": "Local storage improves cookies, giving more storage capacity",
+          "correct": false
+        },
+        {
+          "ans": "In session stoage the data is only available during the page session",
+          "correct": false
+        },
+        {
+          "ans": "There is no limit on how big a cookie can be",
+          "correct": true
+        },
+        { "ans": "All three above are incorrect", "correct": false }
       ]
     },
     {
-      "question": "example hard 4",
+      "question": "Use of ~ and ^ in package.json",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": true }
+        { "ans": "They both have similar uses", "correct": false },
+        { "ans": "^ is for bug fixes only", "correct": false },
+        {
+          "ans": "With ~ only the latest bug fixes are allowed",
+          "correct": true
+        },
+        { "ans": "Both B and C are correct", "correct": false }
       ]
     },
     {
-      "question": "example hard 5",
+      "question": "Which of these is not a git command",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": true }
+        { "ans": "git checkout -b newBranch", "correct": false },
+        { "ans": "git push origin main", "correct": false },
+        { "ans": "git cherry-pick", "correct": false },
+        { "ans": "git delete", "correct": true }
       ]
     }
   ]
