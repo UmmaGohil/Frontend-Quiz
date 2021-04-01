@@ -63,48 +63,66 @@
   ],
   "mid": [
     {
-      "question": "When should you use a class component over a functional component?",
+      "question": "When should you use a class component over a functional component in React?",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": true },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        { "ans": "Both have the same functionality", "correct": false },
+        {
+          "ans": "Class components enable users to use lifecycle methods and functional components do not",
+          "correct": true
+        },
+        {
+          "ans": "Functional components enable lifecycle methods",
+          "correct": false
+        },
+        { "ans": "None of hte above are correct", "correct": false }
       ]
     },
     {
       "question": "What is the use of refs?",
       "answers": [
-        { "ans": "one", "correct": true },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        { "ans": "A way to access DOM nodes", "correct": true },
+        {
+          "ans": "Anything that needs to be done declaratively",
+          "correct": false
+        },
+        { "ans": "Not used anymore", "correct": false },
+        { "ans": "Both A and B are correct", "correct": false }
       ]
     },
     {
       "question": "What is a key prop and why is it used in array elements?",
       "answers": [
-        { "ans": "one", "correct": false },
-        { "ans": "two", "correct": true },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        { "ans": "Remove ReactJS error warning", "correct": false },
+        {
+          "ans": "Important for DOM nodes and enables you to control component instances.",
+          "correct": true
+        },
+        { "ans": "A and B are correct", "correct": false },
+        { "ans": "A and B are incorrect", "correct": false }
       ]
     },
     {
       "question": "What is hoisting?",
       "answers": [
-        { "ans": "one", "correct": true },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        { "ans": "Moving declarations to the top", "correct": true },
+        { "ans": "Declaring and assiging variables", "correct": false },
+        { "ans": "A and B are correct", "correct": false },
+        { "ans": "A and B are incorrect", "correct": false }
       ]
     },
     {
       "question": "What's the difference between synchronous and asychronous functions?",
       "answers": [
-        { "ans": "one", "correct": true },
-        { "ans": "two", "correct": false },
-        { "ans": "three", "correct": false },
-        { "ans": "four", "correct": false }
+        {
+          "ans": "In synchronous functions the code execution waits for the event before continuing. In asynchronous code is executed whilst other parts of the program are running",
+          "correct": true
+        },
+        {
+          "ans": "In synchronous functions the code is executed while other parts of the program are running. In asynchronous code is executed after the event.",
+          "correct": false
+        },
+        { "ans": "There is no difference", "correct": false },
+        { "ans": "Both A and B are incorrect", "correct": false }
       ]
     }
   ],
